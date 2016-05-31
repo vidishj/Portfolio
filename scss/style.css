@@ -1,0 +1,374 @@
+/* line 1, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 5, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0; }
+
+/* line 17, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.clearf *:before, .clearf *:after {
+  content: " ";
+  display: table; }
+
+/* line 21, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.clearf *:after {
+  clear: both; }
+
+/* line 27, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  padding: 0;
+  margin: 0; }
+
+/* line 33, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+div, section {
+  display: block; }
+
+/* line 37, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+section {
+  padding: 100px 0; }
+
+/* line 41, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+a {
+  text-decoration: none;
+  color: #000; }
+
+/* line 46, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+input, textarea {
+  width: 92%;
+  height: auto;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #F3F3F3;
+  margin: 5px;
+  font-size: 15px; }
+
+/* line 59, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+textarea {
+  height: 300px; }
+
+/* line 63, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+button {
+  width: 150px;
+  height: auto;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #0C5CA9;
+  margin: 5px;
+  color: #FFF;
+  font-size: 15px; }
+
+/*********************
+Header
+**********************/
+/* line 79, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #d82121;
+  color: #000; }
+
+/* line 87, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.header-content {
+  text-align: right;
+  border-bottom: 1px solid #363532;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 14px;
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  -webkit-box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 102, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.initials {
+  float: left;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 40px;
+  color: #FFF; }
+
+/* line 110, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.hero h1 {
+  font-size: 38px;
+  color: #FFF; }
+
+/* line 115, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.hero h3 {
+  color: #FFF;
+  font-size: 15px; }
+
+/* line 120, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.hero p {
+  color: gray;
+  width: 280px; }
+
+/* line 126, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.hero {
+  max-width: 1040px;
+  background-color: #d82121;
+  text-align: center;
+  padding-top: 200px;
+  margin: 0 auto; }
+
+/* line 135, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.menu-svg {
+  margin-right: 30px;
+  margin-top: 22px;
+  display: none; }
+
+/* line 141, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+ul {
+  margin-right: 30px;
+  margin-top: 22px; }
+  /* line 146, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  ul li {
+    list-style: none;
+    display: inline-block; }
+    /* line 150, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+    ul li a {
+      padding: 0 20px 0 20px;
+      color: #FFF; }
+    /* line 156, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+    ul li a:hover {
+      color: #B8B8B8; }
+
+/***************************
+Main Content
+***************************/
+/* line 172, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.main-container {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 178, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.container {
+  max-width: 1040px;
+  /*width: 70%;*/
+  margin: 0 auto; }
+
+/* line 184, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.container:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 195, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.recent-work {
+  max-width: 100%;
+  height: auto;
+  background: #E8E8E8; }
+
+/* line 203, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.projects {
+  background-color: #FFF;
+  width: 31.09%;
+  border: 1px solid grey;
+  height: 240px;
+  padding: 5px 5px 30px 5px;
+  float: left;
+  color: #000;
+  margin: 10px 5px 0 5px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px; }
+  /* line 221, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects img {
+    opacity: 0.8; }
+  /* line 226, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects img:hover {
+    opacity: 1; }
+  /* line 230, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects a {
+    color: #000; }
+
+/* line 235, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.section-headline {
+  text-align: center;
+  max-width: 100%; }
+  /* line 241, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .section-headline h3 {
+    font-size: 30px; }
+  /* line 247, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .section-headline hr {
+    width: 80px;
+    border-top: 2px solid #0F75C1;
+    margin: 10px auto 30px; }
+
+/* line 254, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.about {
+  clear: both;
+  background: #606060;
+  padding: 80px 0 80px 0; }
+  /* line 259, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .about h3 {
+    color: #FFF; }
+  /* line 263, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .about hr {
+    border-top: 1px solid #FFF; }
+
+/* line 272, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.about-content {
+  max-width: 1000px;
+  color: #FFF;
+  font-weight: 200;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0 50px 0 50px; }
+  /* line 282, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .about-content p {
+    margin: 5px 0; }
+
+/* line 293, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.contact {
+  padding: 80px 0 100px 0;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+/* line 300, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.contact-details {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  color: #000; }
+  /* line 307, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .contact-details p {
+    margin: 0; }
+
+/* line 313, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none; }
+
+/* line 325, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+#modal {
+  width: 40%;
+  margin: 130px auto;
+  padding: 30px;
+  background: #FFF;
+  border-radius: 5px; }
+  /* line 332, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  #modal a {
+    color: blue; }
+
+/***************************
+Footer Content
+***************************/
+/* line 354, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+footer {
+  background-color: #333333;
+  color: #FFF;
+  padding: 50px; }
+
+/* line 361, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+.footer-content {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center; }
+
+/***************************
+Media Queries
+***************************/
+@media screen and (min-width: 1051px) {
+  /* line 375, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .container {
+    width: 100%;
+    max-width: 1040px; } }
+
+@media screen and (max-width: 1050px) {
+  /* line 383, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .hero h1 {
+    font-size: 30px; }
+  /* line 387, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .container {
+    width: 70%; }
+  /* line 391, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .hero {
+    text-align: center; }
+  /* line 395, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .hero p {
+    margin: 0 auto; }
+  /* line 399, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects {
+    width: 46%; }
+  /* line 406, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .about-content p {
+    padding: 0 80px 0 80px; }
+  /* line 413, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .contact-details {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 30px; } }
+
+@media screen and (max-width: 800px) {
+  /* line 425, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects {
+    float: none;
+    margin: 10px auto;
+    width: 60%; }
+  /* line 431, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  #modal {
+    width: 50%;
+    margin: 150px auto; } }
+
+@media screen and (max-width: 680px) {
+  /* line 439, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .projects {
+    float: none;
+    margin: 10px auto;
+    width: 93%; }
+  /* line 445, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .contact-details a {
+    font-size: 25px; }
+  /* line 449, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .menu-svg {
+    display: inline-block; }
+  /* line 455, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .header-content ul li {
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px 0; }
+  /* line 463, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .hero {
+    padding: 80px 5px 30px 5px; }
+  /* line 467, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  #nav {
+    display: none; }
+  /* line 471, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .header-content {
+    position: relative;
+    padding: 0; }
+  /* line 476, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .header-content ul li a {
+    margin: 50px 0 50px 0;
+    font-size: 17px; }
+  /* line 485, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  .about-content p {
+    padding: 0; }
+  /* line 490, /Users/vidishj/Documents/Projects/VidishJoglekar.com/scss/style.scss */
+  #modal {
+    width: 80%;
+    margin: 80px auto; } }
+
+/*# sourceMappingURL=style.css.map */
